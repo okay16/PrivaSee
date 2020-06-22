@@ -1,0 +1,68 @@
+html, body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin:0;
+    min-height: 180px;
+    padding: 0;
+    width: 384px;
+}
+
+h1 {
+    font-family: 'Menlo', monospace;
+    font-size: 22px;
+    margin: 0;
+    color:black;
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+    color: gray;
+}
+
+a:link, a:visited {
+    color: black;
+    outline: 0;
+    text-decoration: none;
+}
+
+img {
+    width: 30px;
+}
+
+.modal-header {
+    align-items: center;
+    border-bottom: 0.5px solid #dadada;
+}
+
+.modal-rating {
+    padding: 0 16px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.logo {
+    padding: 16px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content:space-evenly;
+    padding: 10px 22px;
+}
+
+.flex {
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+    width: 120px;
+}
+
+.flex:hover {
+    opacity: 0.4;
+}
+
+.flex .fa {
+    font-size: 40px;
+    color: darkslategrey;
+}
